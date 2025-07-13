@@ -1,7 +1,7 @@
-children = int(input())
-pirozki = int(input())
+p = int(input())
+n = int(input())
 
-summChild = pirozki + 1
+total_people = n + 1
 
-print(pirozki // summChild)
-print(pirozki % summChild)
+print(p // total_people)
+print(p % total_people)
