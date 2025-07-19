@@ -1,6 +1,8 @@
-n = 1234
-
-print(n // 1000)
-print(n // 100 % 10)
-print(n // 10 % 10)
-print(n % 10)
+n = int(input())
+if n % 3 == 0:
+   n = n // 3
+elif n % 2 == 0:
+   n = n // 2
+else:
+   n = n - 1
+print(n)
