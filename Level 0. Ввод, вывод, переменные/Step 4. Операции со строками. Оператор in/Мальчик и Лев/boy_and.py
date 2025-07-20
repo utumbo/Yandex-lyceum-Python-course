@@ -8,7 +8,7 @@ oshibka2 = 'В зоопарке Лев узнал, что скоро у них �
 if substring_boy in str and substring_lione not in str:
     print('Мальчик есть, льва нет.')
 
-if substring_lione in str and substring_boy not in str:
+elif substring_lione in str and substring_boy not in str:
     print('Есть лев, мальчика нет.')
 else:
     print('Лев, беги!')
