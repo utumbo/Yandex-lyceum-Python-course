@@ -1,4 +1,32 @@
 substring = input()
+str1 = input()
+str2 = input()
+str3 = input()
+
+print("Строка    :число")
+
+# Форматирование без срезов
+for s in [str1, str2, str3]:
+    # Левая часть
+    left = ""
+    count = 0
+    for c in s:
+        if count < 10:
+            left += c
+            count += 1
+    while len(left) < 10:
+        left += " "
+    
+    # Определение результата
+    if s == substring:
+        res = "  111"
+    elif substring in s:
+        res = "    1"
+    else:
+        res = "   10"
+    
+    print(left + ":" + res)
+
 
 
 """
