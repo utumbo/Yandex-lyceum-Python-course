@@ -2,8 +2,10 @@ numb = int(input())
 
 if numb % 3 == 0 and numb % 5 == 0:
     print("отличное")
+elif numb % 5 == 0 and not numb % 3 == 0:
+    print('полукруглое')
 elif numb % 3 == 0 and not numb % 5 == 0:
-    print('Тройное')
+    print('тройное')
 else:
     print('просто число')
 
