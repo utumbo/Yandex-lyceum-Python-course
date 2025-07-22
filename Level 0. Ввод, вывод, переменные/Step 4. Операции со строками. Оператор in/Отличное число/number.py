@@ -1,6 +1,6 @@
 numb = int(input())
 
-if numb % 3 == 0 and numb % 3 == 0:
+if numb % 3 == 0 and numb % 5 == 0:
     print("отличное")
 elif numb % 3 == 0 and not numb % 5 == 0:
     print('Тройное')
