@@ -3,6 +3,8 @@ numb = input()
 if int(numb[0]) % 2 == 0 and int(numb[1]) % 2 == 0 and int(numb[2]) % 2 == 0 and \
     int(numb[3]) % 2 == 0 and int(numb[4]) % 2 == 0:
     print(True)
+else:
+    print(False)
 
 """
 Напишите программу, которая проверяет, являются ли все цифры введённого пятизначного числа чётными.
