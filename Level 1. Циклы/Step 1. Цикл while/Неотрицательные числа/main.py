@@ -1,5 +1,3 @@
-numb = int(input())
-
 count  = 0
 
 while(numb < 1000):
