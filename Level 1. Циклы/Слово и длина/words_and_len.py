@@ -3,7 +3,8 @@ while True:
 
     if words == 'СТОП':
         break
-    print(words + '\t', len(words))
+    print(f"{words}\t{len(words)}")
+
 
 """
 Напишите программу для вывода информации обо всех введённых словах в виде:
