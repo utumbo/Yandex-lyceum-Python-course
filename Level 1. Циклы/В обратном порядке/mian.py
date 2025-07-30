@@ -1,4 +1,12 @@
+words = []
 
+while True:
+    word = input()
+    if word == '!':
+       break
+    words.append(word)
+
+print('\n'.join(reversed(words)))
 
 """
 Напишите программу, которая собирает все введённые слова в 
