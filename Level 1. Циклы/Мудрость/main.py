@@ -1,4 +1,3 @@
 minimum = []
 str = input()
 
-//
