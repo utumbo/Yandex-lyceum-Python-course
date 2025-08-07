@@ -1,26 +1,11 @@
-def find_half_palindrome_index(s):
-    left = 0
-    right = len(s) - 1
-    
-    while left < right:
-        if s[left] == s[right]:
-            left += 1
-            right -= 1
-        else:
-            return left
-    
-    return len(s)
-
-
-def main():
-    input_string = input().strip()
-    index = find_half_palindrome_index(input_string)
-    print(index)
-
-
-if __name__ == "__main__":
-    main()
-
+s = input().strip()
+n = len(s)
+result = 0
+for i in range(n // 2):
+    if s[i] != s[n - 1 - i]:
+        result = i
+        break
+print(result)
 
 """
 Палиндром — это строка, которая читается одинаково с начала и с конца. 
