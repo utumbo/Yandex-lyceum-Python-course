@@ -11,9 +11,16 @@ def find_half_palindrome_index(s):
     
     return len(s)
 
-input_string = input().strip()
-index = find_half_palindrome_index(input_string)
-print(index)
+
+def main():
+    input_string = input().strip()
+    index = find_half_palindrome_index(input_string)
+    print(index)
+
+
+if __name__ == "__main__":
+    main()
+
 
 """
 Палиндром — это строка, которая читается одинаково с начала и с конца. 
